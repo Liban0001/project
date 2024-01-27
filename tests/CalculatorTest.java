@@ -1,6 +1,6 @@
 package tests;
 
-import org.junit.Test;
+import org.junit.est;
 import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest {
