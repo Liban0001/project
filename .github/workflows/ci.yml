@@ -14,17 +14,19 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
+          distribution: 'temurin'  # Replace with your preferred distribution if needed
           java-version: '11'
 
       - name: Cache Gradle packages
         uses: actions/cache@v3
         with:
           path: ~/.gradle/caches
-          key: <span class="math-inline">\{\{ runner\.os \}\}\-gradle\-</span>{{ hashFiles('build.gradle') }}
+          key: ${{ runner.os }}-gradle-${{ hashFiles('build.gradle') }}
 
       - name: Install dependencies
         run: gradle dependencies
 
       - name: Run unit tests
         run: gradle test
+
 
