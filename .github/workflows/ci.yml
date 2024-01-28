@@ -29,26 +29,4 @@ jobs:
       - name: Run unit tests
         run: gradle test
       
-      - name: Run SonarQube analysis
-        run: gradle sonar
-
-
-#  DemoSonarCloudScan:
- #   runs-on: ubuntu-latest
-  #  needs: build  # Ensure SonarCloud scan runs after the build job
-#
- #   steps:
-  #    - uses: actions/checkout@v3
-   #     with:
-    #      fetch-depth: 0
-     # - name: SonarCloud Scan
-      #  uses: sonarsource/sonarcloud-github-action@master
-       # env:
-        #  GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
-         # SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        #with:
-          #args: >
-           # -Dsonar.organization=Liban0001
-            #-Dsonar.projectKey=project
-           # -Dsonar.python.coverage.reportPaths=coverage.xml
-
+ 
