@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-28T16:34:47" hostname="LIBAN" time="0.001">
+<testsuite name="CalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-01-28T16:42:47" hostname="LIBAN" time="0.001">
   <properties/>
-  <testcase name="testAdd" classname="CalculatorTest" time="0.0"/>
+  <testcase name="testAdd" classname="CalculatorTest" time="0.001"/>
   <testcase name="testSubtract" classname="CalculatorTest" time="0.0"/>
+  <testcase name="testDivision" classname="CalculatorTest" time="0.0"/>
+  <testcase name="testMultiply" classname="CalculatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
