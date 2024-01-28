@@ -1,6 +1,5 @@
 plugins {
-    id 'java'
-    id 'org.sonarqube' version '4.0.0.2929' // Use a compatible version 
+    id 'java' 
 }
 
 repositories {
@@ -13,12 +12,4 @@ dependencies {
 
 test {
     useJUnit()
-}
-
-sonarqube {
-  properties {
-    property "sonar.projectKey", "project"  // Replace with your SonarCloud project key
-    property "sonar.host.url", "https://sonarcloud.io" // Use the default SonarCloud URL
-    property "sonar.organization", "liban0001" // Add your SonarCloud organization
-  }
 }
