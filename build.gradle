@@ -20,5 +20,6 @@ sonarqube {
     property "sonar.projectKey", "project"  // Replace with your SonarCloud project key
     property "sonar.host.url", "https://sonarcloud.io" // Use the default SonarCloud URL
     property "sonar.organization", "liban0001" // Add your SonarCloud organization
+    property "sonar.scanner.force-deprecated-java-version", "true" // Replace "true" with the specific Java version if needed
   }
 }
