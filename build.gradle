@@ -22,9 +22,3 @@ sonarqube {
     property "sonar.organization", "liban0001" // Add your SonarCloud organization
   }
 }
-
-java {
-  toolchain {
-    languageVersion = JavaLanguageVersion.of(17)
-  }
-}
